@@ -1,0 +1,31 @@
+SQL CLASSWORK
+ 3.1	a. Existing data
+	b. from the development of new information systems
+	c. from the redesign of existing databases.
+
+3.2	The basic premise of this chapter is to received one or more 
+	tables of data from some source that are to be stored in a new database.
+
+3.3	This table has a problem called a multivalued dependency.
+
+3.4a. 	Relation store data about an entity, the names of the columns are unique; no two 
+	columns in the same relation may have the same name.
+
+   b.	Functional dependency is when the value of one or more attributes 
+	determines the value of another attribute. 
+
+   c. 	A determinant is unique in a relation if and only if it determines 
+	every other column in the relation.
+
+   d. 	A composite key is a key that consists of two or more columns.
+   e. 	A candidate key is a key with no repeated values, determines all of the other columns in a relation. 
+   f. 	A primary key is a candidate key selected as the primary key.
+   g. 	A surrogate key is an artificial column added to a relation to serve as a primary key.
+   h. 	A foreign key is a column or composite of columns that is the primary key of a table other 
+	than the one in which it appears. 
+   i. 	Referential integrity constraint, which is a statement that limits the values of the foreign key. 
+   j. 	Relations are categorized into normal forms based on the kinds of problems that they have. 
+   k. 	A multivalued dependency occurs when a determinant is matched with a particular set of values.
+
+3.5	Domain integrity constraint, all of the values in a column are of the same kind.
+

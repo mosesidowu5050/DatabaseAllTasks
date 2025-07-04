@@ -1,0 +1,16 @@
+Regional Labs Case Question(A-K)
+
+A. Yes, (ProjectID, EmployeeName) → EmployeeSalary holds true.
+B. (ProjectID, EmployeeName) is the Primary Key.
+C. Yes
+D. The table is in 3NF because the non-key attribute does not determine another non-key attribute.
+E. Update anomaly because you need to keep updating multiple rows for the project the employee work on when anything changes.
+F. No – ProjectID alone can't determine other values.
+G. No – an employee may earn different salaries on different projects.
+H. Yes – the composite key uniquely determines all attributes.
+I. No – multiple employees can share the same salary.
+J. No – no non-key attribute determines another.
+K. Normalize:
+
+Table 1: (EmployeeName, ProjectID)
+Table 2: (EmployeeName, EmployeeSalary)
